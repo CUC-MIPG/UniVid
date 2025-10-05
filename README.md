@@ -11,7 +11,7 @@
 > [Show Lab](https://github.com/showlab), National University of Singapore
 > <br>
 
-
+<a href="https://www.arxiv.org/abs/2509.21760"><img src="https://img.shields.io/badge/arXiv-2509.21760-A42C25.svg" alt="arXiv"></a>
 
 <img src='./asset/analysis.png' width='100%' />
 
