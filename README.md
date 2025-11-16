@@ -38,7 +38,7 @@ pip install -e .
 ```
 
 ### 3. **Dataset Preparation**
-We provide an example dataset in ```dataset/camera-movement```, which includes a file named ```metadata.csv``` specifying each video path and its corresponding prompt.
+We provide an [example dataset of camera movement task](https://huggingface.co/datasets/CUC-MIPG/Univid) , which includes a file named ```metadata.csv``` specifying each video path and its corresponding prompt.
 Each video contains four clips arranged in the order $(A \rightarrow A' \rightarrow B \rightarrow B')$, each with the same length.  
 
 Please ensure that each clip has exactly $4n + 1$ frames, and that the total number of frames in all four clips is less than $81$.
@@ -51,7 +51,7 @@ Run the script ```data_process.sh``` to preprocess the dataset.
 
 Run the script ```train.sh``` to start training.
 
-An example UniVid model for the camera movement task can be downloaded from [this link](https://drive.google.com/file/d/1V4HraIjlMrbPfAPivk5vYoq4bQTzcP4L/view?usp=sharing )
+An example UniVid model for the camera movement task can be downloaded from [this link](https://huggingface.co/CUC-MIPG/Univid)
 
 
 ### 5. Inference
