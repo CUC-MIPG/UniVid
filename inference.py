@@ -31,17 +31,17 @@ parser.add_argument(
 parser.add_argument(
     "--model",
     type=str,
-    default="/hdd/u202420081000004/models/Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors"
+    default="Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors"
 )
 parser.add_argument(
     "--t5_model",
     type=str,
-    default="/hdd/u202420081000004/models/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth"
+    default="Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth"
 )
 parser.add_argument(
     "--vae_model",
     type=str,
-    default="/hdd/u202420081000004/models/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth"
+    default="Wan2.1-T2V-1.3B/Wan2.1_VAE.pth"
 )
 parser.add_argument(
     "--n_clipA",
