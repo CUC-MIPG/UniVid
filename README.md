@@ -38,10 +38,18 @@ pip install -e .
 ```
 
 ### 3. **Dataset Preparation**
-We provide an [example dataset of camera movement task](https://huggingface.co/datasets/CUC-MIPG/Univid) , which includes a file named ```metadata.csv``` specifying each video path and its corresponding prompt.
+We provide an [example dataset of camera movement task](https://huggingface.co/datasets/CUC-MIPG/Univid). 
 Each video contains four clips arranged in the order $(A \rightarrow A' \rightarrow B \rightarrow B')$, each with the same length.  
+Make sure the folder structure follows:
+```
+data/
+  train/
+    camera_movement/
+      metadata.csv
+      train/
+```
 
-Please ensure that each clip has exactly $4n + 1$ frames, and that the total number of frames in all four clips is less than $81$.
+To prepare your customized data, please ensure that each clip has exactly $4n + 1$ frames, and that the total number of frames in all four clips is less than $81$.
 
 Run the script ```data_process.sh``` to preprocess the dataset.
 
