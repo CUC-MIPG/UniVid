@@ -13,6 +13,7 @@
 
 <a href="https://www.arxiv.org/abs/2509.21760"><img src="https://img.shields.io/badge/arXiv-2509.21760-A42C25.svg" alt="arXiv"></a>
 <a href="https://huggingface.co/datasets/CUC-MIPG/Univid"><img src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-ffbd45.svg" alt="HuggingFace"></a>
+<a href="https://huggingface.co/CUC-MIPG/Univid"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
 <img src='./asset/analysis.png' width='100%' />
 
 ## Getting Started
