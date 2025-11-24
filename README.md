@@ -1,4 +1,4 @@
-# UniVid
+# UniVid (WACV2026)
 
 > **UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models**
 > <br>
@@ -73,6 +73,15 @@ Run the script ```inference.sh``` for inference.
 <img src='./asset/observation.png' width='100%' />
 
 
+## Citation
+```
+@article{chen2025univid,
+  title={UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models},
+  author={Chen, Lan and Gu, Yuchao and Mao, Qi},
+  journal={arXiv preprint arXiv:2509.21760},
+  year={2025}
+}
 
+```
 
 
